@@ -16,6 +16,7 @@ if ($_SERVER['argc'] >= 3) {
 }
 
 $classes = 11;
+$classes = 6;
 $maxFeatures = 10;
 $trainPartition = $trainSize * $maxFeatures * $classes;
 $testPartitionOffset = $trainPartition + 1;
